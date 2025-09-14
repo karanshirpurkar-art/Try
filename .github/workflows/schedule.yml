@@ -25,7 +25,7 @@ jobs:
 
       - name: Run Notebook with Papermill
         run: |
-          papermill soteraccuracy.ipynb output.ipynb
+          papermill Untitled3.ipynb output.ipynb
 
       - name: Upload Output Notebook
         uses: actions/upload-artifact@v4
