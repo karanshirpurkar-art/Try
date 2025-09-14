@@ -28,7 +28,7 @@ jobs:
           papermill soteraccuracy.ipynb output.ipynb
 
       - name: Upload Output Notebook
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: executed-notebook
-          path: output.ipynb
+          path: output.ipynb  
