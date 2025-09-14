@@ -25,7 +25,7 @@ jobs:
 
       - name: Run Notebook with Papermill
         run: |
-          papermill Untitled3(1).ipynb output.ipynb
+          papermill finaltest.ipynb output.ipynb
 
       - name: Upload Output Notebook
         uses: actions/upload-artifact@v4
